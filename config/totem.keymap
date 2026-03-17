@@ -66,7 +66,7 @@
         combo_esc {
             key-positions = <0 1>;
             bindings = <&kp ESC>;
-            timeout-ms = <20>;
+            timeout-ms = <40>;
             require-prior-idle-ms = <150>;
         };
 
@@ -74,7 +74,7 @@
             key-positions = <20 31>;
             bindings = <&to L_BASE>;
             layers = <L_FUN>;
-            timeout-ms = <20>;
+            timeout-ms = <40>;
             require-prior-idle-ms = <150>;
         };
     };
